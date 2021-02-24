@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url("../img/top.png");
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: local('ROLAchan-Regular');
+}
+
+header,h1,h2,h3 {
+  font-family:'MyFont';
+}
